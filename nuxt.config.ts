@@ -10,6 +10,15 @@ export default defineNuxtConfig({
   experimental: { sqliteConnector: process.env.VERCEL ? 'wasm' : 'native' },
 
   content: {
+    database: {
+      type: 'postgres',
+      url: process.env.POSTGRES_URL,
+    },
+    preview: {
+      dev: true,
+      api: 'https://api.nuxt.studio',
+    },
+
     build: {
       markdown: {
         highlight: {
