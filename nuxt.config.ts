@@ -7,7 +7,7 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
   routeRules: { "/": { prerender: true, }, },
   compatibilityDate: '2025-07-16',
-  experimental: { sqliteConnector: 'native' },
+  experimental: { sqliteConnector: process.env.VERCEL ? 'wasm' : 'native' },
 
   content: {
     build: {
