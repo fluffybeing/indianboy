@@ -9,14 +9,14 @@
       and misadventures of a mischievous young Indian boy in Sweden. The stories
       illustration are done by
       <a
-        href="(https://www.instagram.com/lolloigge/)"
+        href="https://www.instagram.com/lolloigge/"
         target="_blank"
         class="text-primary font-medium"
         >Lavi</a
       >
       and written by
       <a
-        href="(https://www.instagram.com/fluffybeing)"
+        href="https://www.instagram.com/fluffybeing/"
         target="_blank"
         class="text-primary font-medium"
         >Rahul</a
