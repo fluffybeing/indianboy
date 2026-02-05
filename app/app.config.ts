@@ -14,10 +14,10 @@ export default defineAppConfig({
     },
   },
   seo: {
-    title: 'indianboy - Opensource changelog template',
+    title: 'INDIANBOY - A Satirical Blog',
     description:
-      'indianboy is an open source change log template made with Nuxt and Tailwind',
-    image: 'https://indianboy.vercel.app/indianboy-banner.jpg',
-    url: 'https://indianboy.vercel.app'
+      'INDIANBOY is a satirical blog that humorously chronicles the adventures and misadventures of a mischievous young Indian boy in Sweden',
+    image: 'https://indianboy.vercel.app/logo.png',
+    url: 'https://indianboy.xyz'
   }
 });

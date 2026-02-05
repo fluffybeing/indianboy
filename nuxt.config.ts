@@ -2,7 +2,12 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
 
-  modules: ['@nuxt/ui', '@nuxt/eslint', '@nuxt/content', '@vueuse/nuxt'],
+  modules: ['@nuxt/ui', '@nuxt/eslint', '@nuxt/content', '@vueuse/nuxt', '@nuxt/image'],
+
+  image: {
+    quality: 80,
+    format: ['webp', 'png', 'jpg'],
+  },
 
   css: ['~/assets/css/main.css'],
   routeRules: { "/**": { prerender: true } },

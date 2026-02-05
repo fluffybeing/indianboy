@@ -1,9 +1,12 @@
 <template>
-  <img
+  <NuxtImg
     :src="src"
     :alt="alt"
-    :width="width"
+    :width="width || 400"
     :height="height"
+    loading="lazy"
+    format="webp"
+    quality="80"
     class="prose-img mx-auto rounded-md !max-w-[400px] !w-auto"
   />
 </template>

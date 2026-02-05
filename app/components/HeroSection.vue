@@ -1,7 +1,7 @@
 <template>
   <div class="pt-24 pb-12">
     <div class="flex items-center justify-center gap-4">
-      <img src="/logo.png" alt="indianboy logo" class="size-10" />
+      <NuxtImg src="/logo.png" alt="indianboy logo" width="40" height="40" format="webp" loading="eager" class="size-10" />
       <h1 class="text-4xl font-black">INDIANBOY</h1>
     </div>
     <p class="text-highlighted text-center text-balance mt-12">
