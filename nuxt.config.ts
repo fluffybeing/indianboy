@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   modules: ['@nuxt/ui', '@nuxt/eslint', '@nuxt/content', '@vueuse/nuxt'],
 
   css: ['~/assets/css/main.css'],
-  routeRules: { "/": { prerender: true, }, },
+  routeRules: { "/**": { prerender: true } },
   compatibilityDate: '2025-07-16',
   experimental: { sqliteConnector: process.env.VERCEL ? 'wasm' : 'native' },
 
