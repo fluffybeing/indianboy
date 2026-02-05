@@ -15,3 +15,11 @@
 :root {
   --ui-radius: 0.325rem;
 }
+
+/* Fixed size for prose images */
+.prose img {
+  max-width: 400px !important;
+  width: auto !important;
+  margin-left: auto;
+  margin-right: auto;
+}
