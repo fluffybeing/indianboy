@@ -3,11 +3,11 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "bun build",
-    "dev": "bun dev",
-    "generate": "bun generate",
-    "preview": "bun preview",
-    "postinstall": "bun prepare",
+   "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
     "lint": "eslint .",
     "lint:fix": "eslint --fix ."
   },
