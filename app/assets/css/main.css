@@ -16,10 +16,11 @@
   --ui-radius: 0.325rem;
 }
 
-/* Fixed size for prose images */
+/* Responsive prose images */
 .prose img {
-  max-width: 400px !important;
-  width: auto !important;
+  max-width: min(400px, 100%);
+  width: 100%;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
 }

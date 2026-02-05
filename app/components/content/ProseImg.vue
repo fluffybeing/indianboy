@@ -7,7 +7,7 @@
     loading="lazy"
     format="webp"
     quality="80"
-    class="prose-img mx-auto rounded-md !max-w-[400px] !w-auto"
+    class="prose-img mx-auto rounded-md w-full max-w-[400px] h-auto"
   />
 </template>
 
