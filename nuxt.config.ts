@@ -8,6 +8,11 @@ export default defineNuxtConfig({
   routeRules: { "/**": { prerender: true } },
   compatibilityDate: '2025-07-16',
 
+  // Use static generation to avoid better-sqlite3 issues on Vercel
+  nitro: {
+    preset: 'vercel-static'
+  },
+
   content: {
     build: {
       markdown: {
