@@ -7,18 +7,8 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
   routeRules: { "/**": { prerender: true } },
   compatibilityDate: '2025-07-16',
-  experimental: { sqliteConnector: process.env.VERCEL ? 'wasm' : 'native' },
 
   content: {
-    database: {
-      type: 'postgres',
-      url: process.env.POSTGRES_URL,
-    },
-    preview: {
-      dev: true,
-      api: 'https://api.nuxt.studio',
-    },
-
     build: {
       markdown: {
         highlight: {
